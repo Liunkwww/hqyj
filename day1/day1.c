@@ -9,6 +9,7 @@ lable:
     if (num > 99 && num <= 999)
     {
         printf("百位:%d 十位:%d 个位:%d \n", num / 100, (num % 100) / 10, num % 10);
+        printf("和为:%d", ((num / 100) + ((num % 100) / 10) + (num % 10)));
     }
     else
     {
